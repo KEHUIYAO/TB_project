@@ -152,7 +152,7 @@ temp = merge(data_cleaned,z)
 # in the values of either positive rate or spatial hazard ratio for each unit.
 
 # first, to use ggmap function, you need to register a google api
-register_google(key="AIzaSyBx4Key-P9lg0FUE5S0SyZwFSeQYQz0Szg")
+register_google(key="???")
 
 # get michigan's map by longtitude and latitude
 michigan_base_map <- get_map(location=c(lon = -83.8, lat = 44.85), zoom=10, maptype = 'terrain-background', source = 'stamen')
